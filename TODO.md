@@ -1,10 +1,16 @@
 # TODOs
-- Setup clang 
-- Gather more system info
-- Expose system info to D-Bus
-- Add gtest tests
-- Add doxygen
-- Try out "Autocomplete" and "Better Comments" extensions
-- Add CI/CD
-- Add License
-- 
+- [X]Setup clang 
+- [ ] Gather more system info
+- [ ] Expose system info to D-Bus
+- [ ] Add gtest tests
+- [ ] Add doxygen
+- [ ] Try out "Autocomplete" and "Better Comments" extensions
+- [ ] Add CI/CD
+- [ ] Add License
+- [ ] Use a pre-commit hook
+- [ ] Use static code analysis (clang-tidy)
+- [ ] add spdlog
+- [ ] use one C++ design pattern
+- [ ] Use a separate class for SystemInfo
+- [ ] Create a D-Bus construct to start off
+- [ ] Use a C++14,C++17,C++20,C++23 feature
