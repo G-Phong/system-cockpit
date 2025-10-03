@@ -5,5 +5,19 @@
     },
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
-    }
+    },
+    "files.associations": {
+        "stdexcept": "cpp",
+        "*.conf": "bitbake",
+        "*.inc": "bitbake",
+        "iostream": "cpp"
+    },
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/sources/poky/bitbake/lib",
+        "${workspaceFolder}/sources/poky/meta/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/sources/poky/bitbake/lib",
+        "${workspaceFolder}/sources/poky/meta/lib"
+    ]
 }

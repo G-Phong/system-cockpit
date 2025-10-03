@@ -1,6 +1,7 @@
 #include <iostream>
-// #include <string>
-#include <sys/sysinfo.h>  // See: https://man7.org/linux/man-pages/man2/sysinfo.2.html
+
+// See: https://man7.org/linux/man-pages/man2/sysinfo.2.html
+// #include <sys/sysinfo.h>
 
 #include "file_utils.hpp"
 

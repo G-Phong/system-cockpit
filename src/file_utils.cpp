@@ -3,7 +3,6 @@
 #include <fstream>
 #include <sstream>
 
-// Requires: <string>, <stream>, <sstream>
 std::string readFile(std::string const& file) {
     std::ifstream is(file);
     if (!is.good()) {
